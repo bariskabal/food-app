@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face { 
+  font-family: "chelsea"; 
+  src: url("../public/assets/fonts/chelsea.ttf"); 
+} 
+@font-face { 
+  font-family: "scriber"; 
+  src: url("../public/assets/fonts/scriber.ttf"); 
+}
+@font-face { 
+  font-family: "mono"; 
+  src: url("../public/assets/fonts/monospace.ttf"); 
+}
+@font-face { 
+  font-family: "righteous"; 
+  src: url("../public/assets/fonts/Righteous.ttf"); 
+}
+@font-face { 
+  font-family: "caviar"; 
+  src: url("../public/assets/fonts/caviar.ttf"); 
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

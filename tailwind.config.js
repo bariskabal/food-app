@@ -9,7 +9,20 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#CCDDB7',
+        secondary: '#6A5B6E',
+        tetriatry: '#F0B7B3'
+      },
+      fontFamily: {
+        chelsea: ["chelsea","sans-serif"],
+        scriber: ["scriber","sans-serif"],
+        mono: ["mono","sans-serif"],
+        righteous: ["righteous","sans-serif"],
+        caviar: ["caviar","sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
