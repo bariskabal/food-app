@@ -21,9 +21,9 @@ module.exports = {
         }
       },
       colors: {
-        primary: '#CCDDB7',
-        secondary: '#6A5B6E',
-        tetriatry: '#F0B7B3'
+        primary: '#F0B7B3',
+        secondary: '#222831',
+        tetriatry: '#CCDDB7'
       },
       fontFamily: {
         chelsea: ["chelsea","sans-serif"],

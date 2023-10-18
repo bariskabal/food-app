@@ -38,3 +38,12 @@ body {
 .btn-primary {
   @apply text-secondary px-[1.875rem] py-2 bg-primary rounded-3xl cursor-pointer hover:bg-primary/70 transition-all;
 }
+
+.slick-dots {
+  @apply !flex justify-start w-full items-center;
+}
+
+.slick-dots .slick-active div {
+  @apply bg-primary w-5 h-5 relative bottom-1  transition-all;
+}
+

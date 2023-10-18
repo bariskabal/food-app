@@ -16,3 +16,22 @@ export const mainMenu = [
         title: 'Book Table',
     }
 ]
+
+export const menuWrapperCategories = [
+    {
+        path: "/",
+        title: 'All',
+    },
+    {
+        path: "/",
+        title: 'Burger',
+    },
+    {
+        path: "/",
+        title: 'Pizza',
+    },
+    {
+        path: "/",
+        title: 'Chicken',
+    }
+]
