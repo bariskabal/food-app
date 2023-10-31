@@ -11,7 +11,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex flex-col text-white gap-7">
-                    <Title className="text-5xl font-chelsea flex lg:flex-row md:flex-col sm:flex-row flex-col  gap-5 whitespace-nowrap">We are <p className="underline underline-offset-4 ml-11 scale-150 transition-all text-primary">Fooder</p></Title>
+                    <Title className="text-5xl font-chelsea flex lg:flex-row md:flex-col sm:flex-row flex-col  gap-5 whitespace-nowrap">We are <p className="underline underline-offset-4 ml-11 scale-150 font-chelsea transition-all text-primary">Fooder</p></Title>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, deleniti ad. Alias sit, perferendis beatae possimus deleniti provident, aspernatur molestias quasi quia est a magni vero quaerat illum ex odit vitae odio? Sint id alias cum atque ratione illo fugit.</p>
                     <div>
                         <button className="btn-primary">Read More</button>

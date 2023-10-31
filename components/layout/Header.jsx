@@ -23,10 +23,10 @@ export default function Header() {
                 <Logo logo="Fooder" />
                 <Menu isMenuModal={isMenuModal} setIsMenuModal={setIsMenuModal}/>
                 <div className="flex gap-x-4 items-center">
-                    <Link className="hover:text-primary hover:transition-all" href="/">
+                    <Link className="hover:text-primary hover:transition-all" href="/auth/login">
                         <FaUserAlt />
                     </Link>
-                    <Link className="hover:text-primary hover:transition-all" href="/">
+                    <Link className="hover:text-primary hover:transition-all" href="/cart">
                         <FaShoppingCart />
                     </Link>
                     <Link onClick={() => setIsSearchModal(true)} type="button" className="hover:text-primary hover:transition-all" href="/">

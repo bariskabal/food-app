@@ -1,9 +1,9 @@
 import Image from "next/image";
 import {BsFillCartFill} from "react-icons/bs"
 
-export default function MenuItem({ item, key }) {
+export default function MenuItem({ item }) {
     return(
-        <div className="rounded-3xl hover:scale-105 transition-all duration-200">
+        <div className="rounded-2xl border hover:scale-105 transition-all duration-200">
             <div className="w-full bg-white h-52 grid place-content-center rounded-t-2xl">
                 <div className="relative w-36 h-36">
                     <Image src={item.imageUrl} layout="fill" alt="" />

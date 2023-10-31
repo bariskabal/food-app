@@ -7,7 +7,7 @@ export default function Menu({ ...props }) {
         <nav className={`sm:static absolute h-screen top-0 left-0 sm:w-auto sm:flex hidden sm:h-auto w-full sm:text-white text-black sm:bg-transparent bg-white ${props.isMenuModal === true && "!grid place-content-center" }`}>
             <ul className="flex gap-x-2 sm:flex-row flex-col items-center">
                 {mainMenu.map((menuItem,index) => (
-                    <li className="px-[0.313rem] py-5 font-chelsea hover:text-primary hover:transition-all" key={index}>
+                    <li  key={index} className="px-[0.313rem] py-5 font-chelsea hover:text-primary hover:transition-all">
                         <Link href={menuItem.path} className="">{menuItem.title}</Link>
                     </li>
                 ))}

@@ -12,7 +12,7 @@ export const mainMenu = [
         title: 'About',
     },
     {
-        path: "/booktable",
+        path: "/book-table",
         title: 'Book Table',
     }
 ]
