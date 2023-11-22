@@ -1,7 +1,5 @@
 import Title from "../ui/Title";
-import {IoLocationSharp} from "react-icons/io5"
-import {AiFillPhone, AiFillInstagram,AiFillLinkedin} from "react-icons/ai"
-import {SiGooglemessages} from "react-icons/si"
+import {AiFillInstagram,AiFillLinkedin} from "react-icons/ai"
 import {RiTwitterXFill} from "react-icons/ri"
  
 export default function Footer() {
@@ -12,18 +10,18 @@ export default function Footer() {
                     <div className="">
                         <Title className="text-2xl text-center">Contact Us</Title>
                         <div className="flex gap-y-3 flex-col mt-6 items-center">
-                            <span className="flex items-center gap-x-2">
-                                <IoLocationSharp />
-                                <p>Location</p>
-                            </span>
-                            <span className="flex items-center gap-x-2">
-                                <AiFillPhone />
-                                <p>90924932493</p>
-                            </span>
-                            <span className="flex items-center gap-x-2">
-                                <SiGooglemessages />
-                                <p>demo@demo.com</p>
-                            </span>
+                            <a className="flex items-center gap-x-2">
+                                <i className="fa fa-map-marker"></i>
+                                <span>Location</span>
+                            </a>
+                            <a className="flex items-center gap-x-2">
+                                <i className="fa fa-phone"></i>
+                                <span>90924932493</span>
+                            </a>
+                            <a className="flex items-center gap-x-2">
+                                <i className="fa fa-envelope"></i>
+                                <span>demo@demo.com</span>
+                            </a>
                         </div>
                     </div>
                     <div>
